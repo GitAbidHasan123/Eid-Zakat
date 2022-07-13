@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: red url(images/zakat\ main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    color: white;
+
+}
+.overlay{
+   position: absolute;
+   background: black;
+   height: 100%;
+   width: 100%;
+   opacity: .7;
+   z-index: -1;
+}
+.style h1{
+    font-weight: 900;
+    margin-left: 200px;
+    font-size: 70px;
+    padding-top: 200px;
+}
+.style p{
+    margin-left: 200px;
+    font-size: 40px;
+    color: rgb(197, 174, 174);
+}
+.special{
+    color: orange;
+}
+.btn-style{
+    margin-top: 60px;
+   margin-bottom: 200px;
+}
+.btn{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px 60px ;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    background-color: #f30420;
+    margin-left: 200px;
+}
+.btn:hover{
+    background-color: rgb(175, 35, 35);
+}
+
+.article{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 800
+}
+.half-width p{
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.dual-part{
+    display: flex;
+    justify-content: center;
+}
+.half-img{
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+}
+.btn-2{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px 60px ;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    background-color: #f30420;
+    margin-left: 240px;
+}
+
+.article-2{
+    margin-bottom: 100px;
+}
+.dual-part-2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.half-width-2{
+    width: 50%;
+}
+.half-width-2 h1{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 800
+}
+.half-width-2 p{
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.btn-3{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px 60px ;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    background-color: #f30420;
+    margin-left: 200px;
+}
+
+.blog{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blog-style h1{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 30px;
+}
+.blog-style p{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
