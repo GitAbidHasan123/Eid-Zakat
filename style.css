@@ -157,3 +157,71 @@
     font-size: 20px;
     color: black;
 }
+
+
+
+.dual-part-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+    gap: 150px;
+}
+.inside-img{
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 60px 60px;
+    background-color: #fadadd;
+    border: 1px solid black;
+}
+.inside-style{
+    text-align: left;  
+}
+
+
+.gap{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.donaite{
+    text-align: center;
+    font-size: 70px;
+}
+.img-size{
+    height: 350px;
+    width: 350px;
+    border-radius: 5px;
+}
+.img-grid{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-bg{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: black;
+}
+.footer-style{
+    text-align: center;
+    color: white;
+}
+.anik{
+    color: #f30420;
+}
+.footer-style p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
